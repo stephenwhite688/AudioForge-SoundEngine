@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AudioForge.SoundEngine/AudioForge.SoundEngine.csproj" />
+    <Project Path="src/AudioForge.Visualizer.Contracts/AudioForge.Visualizer.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Sound Engine/">
+    <Project Path="src/Sound Engine/AudioForge.Analysis/AudioForge.Analysis.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Backend.Wasapi/AudioForge.Backend.Wasapi.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Benchmarks/AudioForge.Benchmarks.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Core/AudioForge.Core.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.DSP/AudioForge.DSP.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.DSP.Spatial/AudioForge.DSP.Spatial.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Effects/AudioForge.Effects.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Engine/AudioForge.Engine.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.IO/AudioForge.IO.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.IO.Codecs/AudioForge.IO.Codecs.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.MIDI/AudioForge.MIDI.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Mixing/AudioForge.Mixing.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.PluginHost/AudioForge.PluginHost.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.PluginHost.CLAP/AudioForge.PluginHost.CLAP.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Streaming/AudioForge.Streaming.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Verify/AudioForge.Verify.csproj" />
+    <Project Path="src/Sound Engine/AudioForge.Visualization/AudioForge.Visualization.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/AudioForge.VisualPlugins.Samples/AudioForge.VisualPlugins.Samples.csproj" />
+  </Folder>
+</Solution>

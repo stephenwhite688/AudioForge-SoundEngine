@@ -1,0 +1,232 @@
+├── AudioForge.Analysis
+├── AudioForge.Backend.Alsa
+├── AudioForge.Backend.CoreAudio
+├── AudioForge.Backend.Wasapi
+├── AudioForge.Benchmarks
+├── AudioForge.Core
+├── AudioForge.DSP
+├── AudioForge.DSP.3D
+├── AudioForge.Effects
+├── AudioForge.Engine
+├── AudioForge.Filters
+├── AudioForge.IO
+├── AudioForge.IO.Codecs
+├── AudioForge.MIDI
+├── AudioForge.Mixing
+├── AudioForge.PluginHost
+├── AudioForge.PluginHost.CLAP
+├── AudioForge.PluginHost.VST3
+├── AudioForge.Streaming
+├── AudioForge.Tests
+├── AudioForge.Visualization
+├── audio engine tree.txt
+  ├── AnalysisBase.cs
+  ├── AudioForge.Analysis.csproj
+  ├── LoudnessAnalyzer.cs
+  ├── LoudnessMeterNode.cs
+  ├── PeakDetector.cs
+  ├── PeakMeterNode.cs
+  ├── PhaseCorrelationNode.cs
+  ├── RMSAnalyzer.cs
+  ├── RMSMeterNode.cs
+  ├── SpectrumAnalyzer.cs
+  ├── ZeroCrossingRate.cs
+  ├── AudioForge.Backend.Alsa.csproj
+  ├── AudioForge.Backend.CoreAudio.csproj
+  ├── CircularBuffer.cs
+  ├── AudioForge.Backend.Wasapi.csproj
+  ├── WasapiCapture.cs
+  ├── WasapiDeviceManager.cs
+  ├── WasapiInputThread.cs
+  ├── WasapiInterop.cs
+  ├── WasapiOutput.cs
+  ├── WasapiOutputThread.cs
+  ├── AudioForge.Benchmarks.csproj
+  ├── Engine
+  ├── AudioBuffer.cs
+  ├── AudioCallback.cs
+  ├── AudioClock.cs
+  ├── AudioDevice.cs
+  ├── AudioDiagnostics.cs
+  ├── AudioEngine.cs
+  ├── AudioFormat.cs
+  ├── AudioFormatConverter.cs
+  ├── AudioMixer.cs
+  ├── AudioNode.cs
+  ├── AudioPipeline.cs
+  ├── AudioSourceBase.cs
+  ├── BackendOptions.cs
+  ├── ChannelLayout.cs
+  ├── ChorusNode.cs
+  ├── CompressorNode.cs
+  ├── DelayNode.cs
+  ├── DeviceDirection.cs
+  ├── EffectNode.cs
+  ├── EngineNode.cs
+  ├── FlangerNode.cs
+  ├── GainNode.cs
+  ├── AudioForge.Core.csproj
+  ├── HighPassNode.cs
+  ├── IAudioBackend.cs
+  ├── IAudioDeviceManager.cs
+  ├── IAudioNode.cs
+  ├── IAudioSource.cs
+  ├── LatencyProfile.cs
+  ├── LimiterNode.cs
+  ├── LowPassNode.cs
+  ├── MeterNode.cs
+  ├── NoiseGateNode.cs
+  ├── PanNode.cs
+  ├── PhaserNode.cs
+  ├── PluginParameter.cs
+  ├── ReverbNode.cs
+  ├── SampleType.cs
+  ├── SilenceSource.cs
+  ├── TremoloNode.cs
+  ├── VibratoNode.cs
+  ├── WASAPIBackend.cs
+  ├── Analysis
+  ├── Dynamics
+  ├── GraphicEQ
+  ├── MasterEQ
+  ├── Mastering
+  ├── Stereo
+  ├── AudioBuffer.cs
+  ├── BiquadFilter.cs
+  ├── BufferUtils.cs
+  ├── Convolution.cs
+  ├── DelayLine.cs
+  ├── DSPMath.cs
+  ├── DSPNode.cs
+  ├── DSPUtils.cs
+  ├── EnvelopeADSR.cs
+  ├── FIRFilter.cs
+  ├── AudioForge.DSP.csproj
+  ├── IIRFilter.cs
+  ├── NodeGraph.cs
+  ├── NoiseGenerator.cs
+  ├── Oscillator.cs
+  ├── Resampler.cs
+  ├── WindowFunctions.cs
+    ├── FFT.cs
+    ├── SpectrumProcessor.cs
+    ├── CompressorEnvelope.cs
+    ├── CompressorProcessor.cs
+    ├── LimiterEnvelope.cs
+    ├── LimiterProcessor.cs
+    ├── BiquadCoefficients.cs
+    ├── BiquadFilter.cs
+    ├── EQPresets.cs
+    ├── MasterEQPresets.cs
+    ├── MasterEQProcessor.cs
+    ├── MidSide.cs
+    ├── StereoImagerProcessor.cs
+  ├── AmbisonicNode.cs
+  ├── AmbisonicOrder.cs
+  ├── BinauralNode.cs
+  ├── AudioForge.DSP.3D.csproj
+  ├── ListenerNode.cs
+  ├── Quaternion.cs
+  ├── SpatialAudioNode.cs
+  ├── SpatialMode.cs
+  ├── SpatialNode.cs
+  ├── SurroundNode.cs
+  ├── Vector3.cs
+  ├── AllpassFilter.cs
+  ├── CombFilter.cs
+  ├── DelayEffect.cs
+  ├── EffectBase.cs
+  ├── AudioForge.Effects.csproj
+  ├── ReverbEffect.cs
+  ├── AnalysisNode.cs
+  ├── AudioEngine.cs
+  ├── EffectNode.cs
+  ├── EngineBase.cs
+  ├── EngineConfig.cs
+  ├── EngineController.cs
+  ├── EngineNode.cs
+  ├── FilterNode.cs
+  ├── AudioForge.Engine.csproj
+  ├── IAudioDeviceManager.cs
+  ├── InputNode.cs
+  ├── MixerNode.cs
+  ├── OutputNode.cs
+  ├── ProcessingGraph.cs
+  ├── BandPassFilter.cs
+  ├── FilterBase.cs
+  ├── AudioForge.Filters.csproj
+  ├── HighPassFilter.cs
+  ├── LowPassFilter.cs
+  ├── AudioMetadata.cs
+  ├── AudioStream.cs
+  ├── FlacDecoder.cs
+  ├── FormatDetector.cs
+  ├── AudioForge.IO.csproj
+  ├── Mp3Decoder.cs
+  ├── OggVorbisDecoder.cs
+  ├── PcmReader.cs
+  ├── PcmWriter.cs
+  ├── WavReader.cs
+  ├── WavWriter.cs
+  ├── AacCodec.cs
+  ├── AlacCodec.cs
+  ├── CodecManager.cs
+  ├── DsdCodec.cs
+  ├── FlacCodec.cs
+  ├── AudioForge.IO.Codecs.csproj
+  ├── IAudioCodec.cs
+  ├── Mp3Codec.cs
+  ├── OggCodec.cs
+  ├── OpusCodec.cs
+  ├── WavCodec.cs
+  ├── WmaCodec.cs
+  ├── GeneralMIDI.cs
+  ├── AudioForge.MIDI.csproj
+  ├── MIDIEnums.cs
+  ├── MIDIEvent.cs
+  ├── MIDIFile.cs
+  ├── MIDIInput.cs
+  ├── MIDIOutput.cs
+  ├── Synthesizer.cs
+  ├── CrossfadeMixer.cs
+  ├── AudioForge.Mixing.csproj
+  ├── MixerBase.cs
+  ├── MixerChannel.cs
+  ├── MixerNode.cs
+  ├── MixerProcessor.cs
+  ├── MultiTrackMixer.cs
+  ├── PanMixer.cs
+  ├── SimpleMixer.cs
+  ├── BuiltinPlugin.cs
+  ├── AudioForge.PluginHost.csproj
+  ├── IAudioPlugin.cs
+  ├── PluginDescriptor.cs
+  ├── PluginHost.cs
+  ├── PluginHostStatistics.cs
+  ├── PluginLoader.cs
+  ├── PluginManager.cs
+  ├── PluginNode.cs
+  ├── PluginParameterController.cs
+  ├── PluginType.cs
+  ├── CLAPHost.cs
+  ├── AudioForge.PluginHost.CLAP.csproj
+  ├── AudioForge.PluginHost.VST3.csproj
+  ├── VST3Host.cs
+  ├── AudioPipeline.cs
+  ├── AudioStreamer.cs
+  ├── DASHStream.cs
+  ├── AudioForge.Streaming.csproj
+  ├── HLSStream.cs
+  ├── HTTPStream.cs
+  ├── IStream.cs
+  ├── ShoutcastStream.cs
+  ├── StreamManager.cs
+  ├── StreamReader.cs
+  ├── StreamWriter.cs
+  ├── AudioDiagnosticsTests.cs
+  ├── AudioEngineRoutingTests.cs
+  ├── CoreAndAnalysisTests.cs
+  ├── AudioForge.Tests.csproj
+  ├── ProcessingGraphTests.cs
+  ├── ProcessingSubsystemTests.cs
+  ├── AudioForge.Visualization.csproj
