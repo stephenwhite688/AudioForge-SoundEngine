@@ -1,10 +1,14 @@
-# AudioForge SoundEngine
+<p align="center">
+  <img src="audioforge.png" alt="AudioForge SoundEngine" width="128" />
+</p>
 
-A realtime .NET audio engine — playback, DSP, codecs, streaming, mixing,
-analysis and plugin hosting in one modular set of libraries.
+<h1 align="center">AudioForge SoundEngine</h1>
 
-Built to power [MusicForge](https://github.com/stephenwhite688/Music-Forge)
-and designed as a standalone SDK for audio applications.
+<p align="center">A realtime .NET audio engine — playback, DSP, codecs, streaming, mixing,<br/>
+analysis and plugin hosting in one modular set of libraries.</p>
+
+<p align="center">Built to power <a href="https://github.com/stephenwhite688/Music-Forge">MusicForge</a><br/>
+and designed as a standalone SDK for audio applications.</p>
 
 ## Packages
 
